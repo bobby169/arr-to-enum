@@ -9,6 +9,7 @@ const cache = {}
  * @returns {{}|*}
  */
 export default function arrToEnum(arr, cacheKey, key = 'name', value = 'value') {
+    if(!Array.isArray(arr)) throw new Error('arr argument is not an array!')
     if (cacheKey && cache[cacheKey]) return cache[cacheKey]
 
     let enumObj = {}

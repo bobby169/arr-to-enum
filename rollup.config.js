@@ -1,5 +1,5 @@
 import babel from '@rollup/plugin-babel';
-import {uglify} from "rollup-plugin-uglify";
+// import {uglify} from "rollup-plugin-uglify";
 
 export default {
     input: 'src/index.js',
@@ -8,15 +8,15 @@ export default {
     ],
     output: [
         {
-            file: 'dist/arrToEnum.js',
+            file: 'dist/arrToEnum.umd.js',
             format: 'umd',
             name: 'arrToEnum'
         },
         {
-            file: 'dist/arrToEnum.min.js',
-            format: 'umd',
+            file: 'dist/arrToEnum.esm.js',
+            format: 'esm',
             name: 'arrToEnum',
-            plugins: [uglify()]
+            // plugins: [uglify()]
         }
     ]
 }
