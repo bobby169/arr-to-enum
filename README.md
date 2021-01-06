@@ -1,17 +1,17 @@
 ﻿## Usage
 
 ```bash
-$ npm install arrToEnum
+$ npm install arr-to-enum
 ```
 
 ```javascript
-import arrToEnum from 'arrToEnum'
+import arrToEnum from 'arr-to-enum'
 ```
 
 Or get it by the cdn and link `arrToEnum.min.js` in your HTML:
 
 ```html
-<script src="https://unpkg.com/arrToEnum@0.0.1/dist/arrToEnum.min.js"></script>
+<script src="https://unpkg.com/arr-to-enum@0.0.1/dist/arrToEnum.min.js"></script>
 ```
 
 Then start to dance:

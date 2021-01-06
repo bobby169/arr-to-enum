@@ -1,5 +1,5 @@
 {
-  "name": "arrToEnum",
+  "name": "arr-to-enum",
   "version": "0.0.1",
   "description": "Convert array to Enum",
   "main": "dist/arrToEnum.umd.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bobby169/arrToEnum.git"
+    "url": "git+https://github.com/bobby169/arr-to-enum.git"
   },
   "keywords": [
     "arrToEnum",
@@ -19,13 +19,13 @@
   "author": "bobby169",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bobby169/arrToEnum/issues"
+    "url": "https://github.com/bobby169/arr-to-enum/issues"
   },
   "files": [
     "lib",
     "dist"
   ],
-  "homepage": "https://github.com/bobby169/arrToEnum",
+  "homepage": "https://github.com/bobby169/arr-to-enum",
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.12.10",
