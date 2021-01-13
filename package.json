@@ -1,9 +1,10 @@
 {
   "name": "arr-to-enum",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert array to Enum",
   "main": "dist/arrToEnum.umd.js",
   "module": "dist/arrToEnum.esm.js",
+  "types": "./index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "test": "jest"
