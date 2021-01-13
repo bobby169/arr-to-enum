@@ -1,10 +1,9 @@
 {
   "name": "arr-to-enum",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "description": "Convert array to Enum",
   "main": "dist/arrToEnum.umd.js",
   "module": "dist/arrToEnum.esm.js",
-  "types": "./index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "test": "jest"
@@ -23,11 +22,10 @@
     "url": "https://github.com/bobby169/arr-to-enum/issues"
   },
   "files": [
-    "lib",
-    "dist"
+    "dist",
+    "index.d.ts"
   ],
   "homepage": "https://github.com/bobby169/arr-to-enum",
-  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
